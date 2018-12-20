@@ -12,7 +12,7 @@ class NewsController {
 
 		require_once(ROOT . '/views/news/index.php');
 
-		return true;
+		exit;
 	}
 
 	public function actionView($id)
@@ -25,7 +25,7 @@ class NewsController {
 /*			echo 'actionView'; */
 		}
 
-		return true;
+		exit;
 
 	}
 
